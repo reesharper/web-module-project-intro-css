@@ -1,0 +1,168 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+    }
+
+.graphics img {
+    width: 100px;
+}
+
+nav{
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 2% 10%;
+    border-radius: 20px;
+    padding: .8% .5%;
+    font-size: 1.7rem;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+nav a:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+    transition: .5s;
+}
+
+.plan {
+    background: #FF764E;
+    width: 10%;
+    display: inline-block; 
+}
+
+.learn {
+    background: #5ED3EB;
+    width: 10%;
+    display: inline-block; 
+}
+
+.involved {
+    background: #FFCD69;
+    width: 10%;
+    display: inline-block; 
+}
+
+#boxed-text {
+    background: #DDB9A3;
+    width: 80%;
+    margin: 2% auto;
+    padding: 1% 3%;
+    color: white;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+footer {
+    background: #F9E7DC;
+}
+
+
+#img-container {
+    box-sizing: border-box;
+    width: 100%;
+    height: 16rem;
+}
+
+#img-container img {
+    width: 100%;
+    height: 100%;
+    overflow: none;
+    object-fit: cover;
+    object-position: 70% 25%;
+}
+
+header img {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+}
+
+.header-text {
+    display: inline-block;
+    text-align: center;
+    line-height: 1.7;
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
+}
+
+h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.3rem;
+}
+
+.header-text p {
+    width: 40%;
+    margin: auto;
+}
+
+.header-image {
+    display: inline-block;
+    margin: 2% 8%;
+}
+
+#graphic {
+    width: 15%;
+    margin: 0 auto;
+    margin-bottom: 4%;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.2;
+}
+
+.graphics {
+    margin: 10% 0;
+}
+
+span {
+   font-weight: bold;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+}
